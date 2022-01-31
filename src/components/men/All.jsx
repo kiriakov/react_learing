@@ -3,22 +3,42 @@ import { Link } from "react-router-dom";
 
 function All() {
     return (
-        <div className="posts">
+        <div className="men-items">
             <div className="container">
-                <Link to="/men/hoody">
-                    <h1 className="mt-5">Hoodys</h1>
+                <h1 className="mt-5">Hoodys</h1>
+
                     <div className="item-section">
                         <div className="itemImage">
-                            <img className="" src="http://dummy-images.com/people/dummy-600x900-CharlesBaudelaire.jpg" alt="" />
+                            <Link to="/men/hoody/hoody">
+                                <img className="" src="http://dummy-images.com/objects/dummy-375x500-Zipper.jpg" alt="" />
+                                <p>Hoody one</p>
+                            </Link>
                         </div>
-                        <div className="itemText">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        <div className="itemImage">
+                            <Link to="/men/hoody/hoodyTwo">
+                                <img className="" src="http://dummy-images.com/objects/dummy-375x500-Zipper.jpg" alt="" />
+                                <p>Hoody Two</p>
+                            </Link>
+                        </div>
+                        <div className="itemImage">
+                            <Link to="/men/hoody/hoodyThree">
+                                <img className="" src="http://dummy-images.com/objects/dummy-375x500-Zipper.jpg" alt="" />
+                                <p>Hoody Three</p>
+                            </Link>
+                        </div>
+                        <div className="itemImage">
+                            <Link to="/men/hoody/hoodyFour">
+                                <img className="" src="http://dummy-images.com/objects/dummy-375x500-Zipper.jpg" alt="" />
+                                <p>Hoody Four</p>
+                            </Link>
                         </div>
                     </div>
-                </Link>
 
+
+
+                <h1 className="mt-5">Hemds</h1>
                 <Link to="/men/hemds">
-                    <h1 className="mt-5">Hemds</h1>
+
                     <div className="item-section">
                         <div className="itemImage">
                             <img className="" src="http://dummy-images.com/people/dummy-600x900-CharlesBaudelaire.jpg" alt="" />

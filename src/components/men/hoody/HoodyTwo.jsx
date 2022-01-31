@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router";
 
-function Hoody() {
+function HoodyTwo() {
     let { postSlug } = useParams();
 
     useEffect(() => {
@@ -11,7 +11,7 @@ function Hoody() {
     return (
         <div className="Hoody">
             <div className="container">
-                <h1 className="mt-5">Only one Hoody (ONE)</h1>
+                <h1 className="mt-5">Only one Hoody (Two)</h1>
                 <h6 className="mb-5">The post slug is, {postSlug}</h6>
                 <div className="item-section">
                     <div className="itemImage">
@@ -26,4 +26,4 @@ function Hoody() {
     );
 }
 
-export default Hoody;
+export default HoodyTwo;

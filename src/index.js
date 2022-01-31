@@ -13,7 +13,10 @@ import {
     Men,
     All,
     Hemds,
-    Hoody
+    Hoody,
+    HoodyTwo,
+    HoodyThree,
+    HoodyFour
 
 } from "./components";
 
@@ -28,8 +31,11 @@ ReactDOM.render(
       <Route path="/women" element={<Women />}/>
       <Route path="/men" element={<Men />}>
           <Route path="" element={<All />} />
-          <Route path=":postSlug" element={<Hoody />} />
-          <Route path=":postSlug" element={<Hemds />} />
+          <Route path="/men/hoody/:postSlug" element={<Hoody />} />
+          <Route path="/men/hoody/HoodyTwo" element={<HoodyTwo />} />
+          <Route path="/men/hoody/HoodyThree" element={<HoodyThree />} />
+          <Route path="/men/hoody/HoodyFour" element={<HoodyFour />} />
+          <Route path="/men/:postSlug" element={<Hemds />} />
       </Route>
     </Routes>
     <Footer />

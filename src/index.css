@@ -84,6 +84,11 @@ img {
   margin-bottom: 26px;
 }
 
+.itemImage p{
+  text-align: center;
+  padding: 12px 0 12px 0;
+}
+
 .itemText {
   padding: 0 26px;
 }

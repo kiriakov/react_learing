@@ -12,6 +12,7 @@ function Hemds() {
         <div className="Hemds">
             <div className="container">
                 <h1 className="mt-5">Only one Hemds</h1>
+                <h6 className="mb-5">The post slug is, {postSlug}</h6>
 
                 <div className="item-section">
                     <div className="itemImage">
