@@ -15,7 +15,7 @@ import {
 
 import MenItems from "./components/men/MenItems";
 import MenItem from "./components/men/MenItem";
-import Men from "./components/men/MenItems";
+import Men from "./components/men/Men";
 
 ReactDOM.render(
   <Router>
