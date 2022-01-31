@@ -7,8 +7,8 @@ export { default as Women } from "./Women";
 export { default as All } from "./men/All";
 export { default as Men } from "./men/Men";
 export { default as Hemds } from "./men/Hemds";
-export { default as Hoody } from "./men/Hoody";
-export { default as HoodyTwo } from "./men/HoodyTwo";
-export { default as HoodyThree } from "./men/HoodyThree";
-export { default as HoodyFour } from "./men/HoodyFour";
+export { default as Hoody } from "./men/hoody/Hoody";
+export { default as HoodyTwo } from "./men/hoody/HoodyTwo";
+export { default as HoodyThree } from "./men/hoody/HoodyThree";
+export { default as HoodyFour } from "./men/hoody/HoodyFour";
 
