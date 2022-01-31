@@ -6,36 +6,33 @@ function Navigation() {
     <div className="navigation">
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
-          <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
                   Home
-                  <span className="sr-only"></span>
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Summer2021">
+                <NavLink className="nav-link" to="/summer2021">
                   Summer 2020
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Winter2021">
+                <NavLink className="nav-link" to="/winter2021">
                  Winter 2020
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Women">
+                <NavLink className="nav-link" to="/women">
                   Momen
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/MenItems">
-                  Man
+                <NavLink className="nav-link" to="/men">
+                  Men
                 </NavLink>
               </li>
             </ul>
-          </div>
         </div>
       </nav>
     </div>

@@ -4,18 +4,19 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
-  Navigation,
-  Footer,
-  Home,
-  Summer2021,
-  Winter2021,
-  Women,
+    Navigation,
+    Footer,
+    Home,
+    Summer2021,
+    Winter2021,
+    Women,
+    Men,
+    All,
+    Hemds,
+    Hoody
 
 } from "./components";
 
-import MenItems from "./components/men/MenItems";
-import MenItem from "./components/men/MenItem";
-import Men from "./components/men/MenItems";
 
 ReactDOM.render(
   <Router>
@@ -26,8 +27,9 @@ ReactDOM.render(
       <Route path="/winter2021" element={<Winter2021 />}/>
       <Route path="/women" element={<Women />}/>
       <Route path="/men" element={<Men />}>
-          <Route path="" element={<MenItem />} />
-          <Route path=":postSlug" element={<MenItems />} />
+          <Route path="" element={<All />} />
+          <Route path=":postSlug" element={<Hoody />} />
+          <Route path=":postSlug" element={<Hemds />} />
       </Route>
     </Routes>
     <Footer />

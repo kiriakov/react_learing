@@ -21,7 +21,7 @@ function Home() {
               </NavLink>
           </div>
           <div className="nav-item">
-              <NavLink className="nav-link" to="/men/MenItems">
+              <NavLink className="nav-link" to="/Men">
               <div className="part">
               <div className="partInner">
                   <img

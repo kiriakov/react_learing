@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Outlet } from "react-router-dom";
 
 
 function MenItems() {
@@ -8,7 +7,6 @@ function MenItems() {
     <div className="men">
       <div className="container">
         <h1 className="">Men items</h1>
-          <Outlet />
           <Link to="/MenItem">
             <div className="item-section">
               <div className="itemImage">
